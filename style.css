@@ -1,0 +1,36 @@
+body {
+  background: url('test-bg.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+
+@media (min-width: 768px) {
+  .imgCofArm{
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+  .imgFlag{
+    display: block;
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .imgCofArm{
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .imgFlag{
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 575px) {
+  .rl{border: 1px solid rgb(230, 224, 224);}
+  .curr{border: 1px solid rgb(230, 224, 224);}
+}
